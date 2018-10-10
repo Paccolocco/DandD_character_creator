@@ -4,38 +4,58 @@ import java.util.Scanner;
 
 public class CreateCharacter {
 
+    /**
+     * Prompts the user to choose a race and gives information about them.
+     */
     public static void ChooseRace(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter true/false to toggle information texts.");
         boolean toggleinfotext = true;
-         toggleinfotext = sc.nextBoolean();
+        //Ask if use wants to see Info texts.
+        //TODO Catch the exception of a wrong input.
+            toggleinfotext = sc.nextBoolean();
 
+        //Print infotext, if requested.
         if(toggleinfotext != false){
             System.out.println("To start of your new character at fist you have to choose a race.\n" +
                     "The most common races are humans, elves, halflings and dwarfes.\n" +
                     "Some races also have subraces like wood elves or mountain dwarfes.\n" +
                     "There's also the more exceptional races like gnomes, half-elves, tieflings and dragonborns.");
+            System.out.println();
         }
-        System.out.println();
+
+
+        //Show race selection
+        System.out.println("Enter the corresponding number to see more information about a specific race.\n " +
+                "To choose a race enter the corresponding number and then enter 0 into the console");
+
+        System.out.println("1. Dwarf\n" +
+                "2. Elf\n" +
+                "3. Halfling\n" +
+                "4. Human\n" +
+                "5. Dragonborne\n" +
+                "6. Gnome\n" +
+                "7. Half-Elf\n" +
+                "8. Half-Orc\n" +
+                "9. Tiefling");
+
+        int choosenRace = ShowRaceInfo();
+        System.out.println("Race has been selected. \n" +
+                "Returning to main menu.");
+
+    }
 
 
 
-            System.out.println("Enter the corresponding number to see more information about a specific race.\n " +
-                    "To chose a race enter the corresponding number and then enter 0 into the console");
+    /**
+     * Shows the race information, based on a prompted input until a race is selected.
+     * @return Returns an int corresponding to the chosen race.
+     */
+    private static int ShowRaceInfo(){
 
-            System.out.println("1. Dwarf\n" +
-                    "2. Elf\n" +
-                    "3. Halfling\n" +
-                    "4. Human\n" +
-                    "5. Dragonborne\n" +
-                    "6. Gnome\n" +
-                    "7. Half-Elf\n" +
-                    "8. Half-Orc\n" +
-                    "9. Tiefling");
-
-            int choosenRace;
-
-            do{
+        int choosenRace = 0;
+        Scanner sc = new Scanner(System.in);
+        do{
             int displayraceinformation = sc.nextInt();
 
             switch (displayraceinformation){
@@ -43,7 +63,6 @@ public class CreateCharacter {
                     System.out.println("The Dwarf:");
                     choosenRace = 1;
                     Race_Information.Dwarf_Info();
-
                     break;
                 case 2:
                     System.out.println("The Elf:");
@@ -87,8 +106,7 @@ public class CreateCharacter {
                     break;
             }
 
-            }while(sc.nextInt() != 0);
-
-
+        }while(sc.nextInt() != 0);
+        return choosenRace;
     }
 }
