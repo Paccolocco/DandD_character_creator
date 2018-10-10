@@ -11,7 +11,7 @@ public class CreateCharacter {
          toggleinfotext = sc.nextBoolean();
 
         if(toggleinfotext != false){
-            System.out.println("To start of your new character you firstly have to choose a race.\n" +
+            System.out.println("To start of your new character at fist you have to choose a race.\n" +
                     "The most common races are humans, elves, halflings and dwarfes.\n" +
                     "Some races also have subraces like wood elves or mountain dwarfes.\n" +
                     "There's also the more exceptional races like gnomes, half-elves, tieflings and dragonborns.");
