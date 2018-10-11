@@ -13,7 +13,7 @@ public class Introduction {
         System.out.println("Welcome to the D&D character creator \n" +
                 "1.\tCreate new character \n2.\tLoad already existing chracter \n3.\tExit program");
         System.out.print("Type here: ");
-        //TODO Put the text in the loop.
+        MainLoop:
         while(true) {
             // Determining what the user selected.
             switch (sc.nextInt()) {
@@ -24,12 +24,14 @@ public class Introduction {
                     //TODO LoadCharacter...
                     break;
                 case 3:
-                    //TODO ExitProgram...
-                    break;
+                    break MainLoop;
                 default:
                     System.out.println("Wrong Input! Try again.");
                     break;
             }
+            System.out.println("Please choose an option: \n" +
+                    "1.\tCreate new character \n2.\tLoad already existing chracter \n3.\tExit program" +
+                    "Type here: ");
         }
     }
 }
