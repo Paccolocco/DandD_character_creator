@@ -10,13 +10,17 @@ public class CreateCharacter {
     public static void ChooseRace(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter true/false to toggle information texts.");
-        boolean toggleinfotext = true;
+        boolean toggleinfotext;
         //Ask if use wants to see Info texts.
-        //TODO Catch the exception of a wrong input.
+        try {
             toggleinfotext = sc.nextBoolean();
+        }catch (Exception e){
+            toggleinfotext = true;
+        }
+
 
         //Print infotext, if requested.
-        if(toggleinfotext != false){
+        if(toggleinfotext){
             System.out.println("To start of your new character at fist you have to choose a race.\n" +
                     "The most common races are humans, elves, halflings and dwarfes.\n" +
                     "Some races also have subraces like wood elves or mountain dwarfes.\n" +
