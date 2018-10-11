@@ -2,37 +2,41 @@ package resources;
 
 import java.util.Scanner;
 
-public class Race_Information {
+class Race_Information {
 
-    public static void Dwarf_Info() {
+    /**
+     * Gives windows that inform about Dwarves.
+     */
+    //TODO Show it in Windows, or change the Javadoc.
+    static void Dwarf_Info() {
         Scanner sc = new Scanner(System.in);
 
 
         int SwitchChoice;
 
         do {
-            System.out.println("");
+            System.out.println();
             System.out.println("1. Display short Information\t2. Dwarf Traits\t3. Show subraces\t0. Exit");
             SwitchChoice = sc.nextInt();
             switch (SwitchChoice) {
                 case 1:
-                    Shortinformation_Dwarfs();
+                    ShortInformation_Dwarves();
                     break;
                 case 2:
                     System.out.println("Dwarf Traits: (To look up what traits are enter 1 otherwise enter 2 to return enter 3):");
-                    int switchht;
+                    int switchChoice2;
                     do {
-                        switchht = sc.nextInt();
-                        switch (switchht) {
+                        switchChoice2 = sc.nextInt();
+                        switch (switchChoice2) {
                             case 1:
                                 System.out.println("X");
-                                //hier Methode zur Erklärung einfügen
+                                //Insert method to explain here.
                                 break;
                             case 2:
                                 DwarfTraits();
                                 break;
                         }
-                    } while (switchht != 3);
+                    } while (switchChoice2 != 3);
                     System.out.println("returned");
                     break;
                 case 3:
@@ -57,10 +61,13 @@ public class Race_Information {
         }
         while (SwitchChoice != 0);
         sc.close();
-        return;
     }
 
-    public static void Shortinformation_Dwarfs() {
+
+    /**
+     * Displays Short Information about Dwarves.
+     */
+    private static void ShortInformation_Dwarves() {
         System.out.println("Breakdown:");
         System.out.println("- Dwarves are known as skilled warriors, miners, and workers of stone and metal.\n" +
                 "- Dwarven skin ranges from deep brown to a paler hue tinged with red.\n" +
@@ -71,11 +78,13 @@ public class Race_Information {
                 "- Individual dwarves are determined and loyal, true to their word and decisive in action\n" +
                 "  some times to the point of stubbornness.\n" +
                 "- Strong sense of justice.\n" +
-                "- Dwarves get along passably well with most other races. But it takes time to gain thier trust.");
-        return;
+                "- Dwarves get along passably well with most other races. But it takes time to gain their trust.");
     }
 
-    public static void DwarfTraits() {
+    /**
+     * Displays the traits of a Dwarf.
+     */
+    private static void DwarfTraits() {
         System.out.println("- Ability Score Increase: Constitution score +2.\n" +
                 "- Age: Dwarves mature normally, they live about 350 years.\n" +
                 "- Alignment: lawful/good, tend to like order.\n" +
@@ -92,17 +101,23 @@ public class Race_Information {
                 "- Languages: Speak, read, and write Common and Dwarvish");
     }
 
-    public static void HillDwarfTraits() {
+    /**
+     * Displays the traits of a Hill Dwarf.
+     */
+    private static void HillDwarfTraits() {
         System.out.println("Hill Dwarf:");
-        System.out.println("Hill dwarfs have keen senses, deep intuition, and remarkable resilience.");
+        System.out.println("Hill dwarves have keen senses, deep intuition, and remarkable resilience.");
         System.out.println("Hill Dwarf traits:\n" +
                 "- Ability Score Increase: Wisdom score +1\n" +
                 "- Dwarven Toughness: hit point maximum +1, and +1 every time you level up.");
     }
 
-    public static void MountainDwarfTraits() {
+    /**
+     * Displays the traits of aMountain Dwarf.
+     */
+    private static void MountainDwarfTraits() {
         System.out.println("Mountain Dwarf:");
-        System.out.println("Mountain dwarfs, are strong and hardy, accustomed to a difficult life in rugged terrain.");
+        System.out.println("Mountain dwarves, are strong and hardy, accustomed to a difficult life in rugged terrain.");
         System.out.println("Mountain Dwarf traits:\n" +
                 "- Ability Score Increase: Strength score +2.\n" +
                 "- Dwarven Armor Training: Proficiency with light and medium armor.");

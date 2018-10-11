@@ -2,16 +2,17 @@ package resources;
 
 import java.util.Scanner;
 
-public class Introduction {
+class Introduction {
 
     /**
      * Functions as the Main Menu of the Program
      */
-    public static void Menu(){
+    static void Menu(){
         Scanner sc = new Scanner(System.in);
+        //TODO Close Scanner
         //Asking for the desired function.
         System.out.println("Welcome to the D&D character creator \n" +
-                "1.\tCreate new character \n2.\tLoad already existing chracter \n3.\tExit program");
+                "1.\tCreate new character \n2.\tLoad already existing character \n3.\tExit program");
         System.out.print("Type here: ");
         MainLoop:
         while(true) {
@@ -30,7 +31,7 @@ public class Introduction {
                     break;
             }
             System.out.println("Please choose an option: \n" +
-                    "1.\tCreate new character \n2.\tLoad already existing chracter \n3.\tExit program" +
+                    "1.\tCreate new character \n2.\tLoad already existing character \n3.\tExit program" +
                     "Type here: ");
         }
     }
