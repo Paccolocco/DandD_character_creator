@@ -3,7 +3,7 @@ package resources;
 
 public class Controller {
     public static void main(String[] args) {
-        Introduction.Menu();
-        System.out.println("XXX");
-    }
+       // Introduction.Menu();
+        //System.out.println("XXX");
+        GuiMainMenue.main(args);    }
 }
