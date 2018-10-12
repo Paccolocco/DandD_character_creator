@@ -5,6 +5,8 @@ public abstract class Character {
 
     //Base Stats for a character
     //Getter and Setter for all of those
+    //Might implement stat changing in this package, so the setters can be deleted.
+    private String name = "Unnamed";
     private int strength = -1;
     private int dexterity = -1;
     private int constitution = 1;
@@ -14,10 +16,29 @@ public abstract class Character {
 
     //Derived base Stats
     //Only Getters for those
-    private int maxHitPoints = -1;
-    private int armorClass = -1;
-    private int speed = -1;
-    private int passivePerception = -1;
+    private int maxHitPoints = -1;      //Partly implemented
+    private int armorClass = -1;        //Not yet implemented
+    private int speed = -1;             //Not yet implemented
+    private int passivePerception = -1; //Mostly implemented
+
+    //Variable Stats
+    private int currentHitPoints = -1;  //Implemented
+
+    /**
+     * Subtracts the given amount from the current HP. Can be used as a heal as well.
+     * @param amount The amount to subtract. Negative amounts effectively "heal" the object.
+     */
+    public void damage(int amount){
+        if (currentHitPoints-amount >= maxHitPoints){
+            currentHitPoints = maxHitPoints;
+        }else{
+            currentHitPoints = currentHitPoints - amount;
+            if (currentHitPoints <= 0){
+                //Implement proper Death Function.
+                System.out.println("Hitpoints of " + name + " have been reduced to: " + currentHitPoints);
+            }
+        }
+    }
 
     /**
      * Updates the passive perception based on the Wisdom.
@@ -31,7 +52,7 @@ public abstract class Character {
         return strength;
     }
 
-    public void setStrength(int strength) {
+    void setStrength(int strength) {
         this.strength = strength;
     }
 
@@ -39,7 +60,7 @@ public abstract class Character {
         return dexterity;
     }
 
-    public void setDexterity(int dexterity) {
+    void setDexterity(int dexterity) {
         this.dexterity = dexterity;
     }
 
@@ -47,7 +68,7 @@ public abstract class Character {
         return constitution;
     }
 
-    public void setConstitution(int constitution) {
+    void setConstitution(int constitution) {
         this.constitution = constitution;
     }
 
@@ -55,7 +76,7 @@ public abstract class Character {
         return intelligence;
     }
 
-    public void setIntelligence(int intelligence) {
+    void setIntelligence(int intelligence) {
         this.intelligence = intelligence;
     }
 
@@ -63,7 +84,7 @@ public abstract class Character {
         return wisdom;
     }
 
-    public void setWisdom(int wisdom) {
+    void setWisdom(int wisdom) {
         this.wisdom = wisdom;
         this.updatePassivePerception();
     }
@@ -72,7 +93,7 @@ public abstract class Character {
         return charisma;
     }
 
-    public void setCharisma(int charisma) {
+    void setCharisma(int charisma) {
         this.charisma = charisma;
     }
 
@@ -90,5 +111,9 @@ public abstract class Character {
 
     public int getPassivePerception() {
         return passivePerception;
+    }
+
+    public int getCurrentHitPoints() {
+        return currentHitPoints;
     }
 }
