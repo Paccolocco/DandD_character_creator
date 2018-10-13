@@ -1,39 +1,30 @@
 package races;
 
-import java.util.Random;
+import Klassen.Klasse;
 
 public class Dwarf extends PlayerCharacter {
 
-    public Dwarf(){
-        /*
-        Set Speed to 25 ft.
-        Languages?: Common and Dwarvish
-        Other Racial Traits?
-        */
+    private final int speed = 25; //TODO Speed in feet? :/
+    /*
+    Languages?: Common and Dwarvish
+    Other Racial Traits?
+    */
+    private Klasse klasse;
 
-        //This Block is for determining the Rolls for the ability values.
-        Random rnd = new Random();
-        //Create an array. First dim corresponds to the abilities.
-        //Second dim corresponds to the throws. It gets filled and the lowest number erased.
-        int [][] abilityThrows = new int[6][4];
-        for (int i = 0; i<abilityThrows.length; i++){
-            int tempLowPos = 0;
-            for (int j = 0; j<abilityThrows[i].length; j++){
-                abilityThrows[i][j] = rnd.nextInt(5)+1;
-                if (abilityThrows[i][j]<abilityThrows[i][tempLowPos]){
-                    tempLowPos = j;
-                }
-            }
-            abilityThrows[i][tempLowPos] = 0;
-        }
-        //Adds the remaining throws and stores it in an array.
-        int [] abilityValues = new int[6];
-        for (int i = 0; i<abilityThrows.length; i++){
-            int tempSum = 0;
-            for (int j = 0; j<abilityThrows[i].length; j++){
-                tempSum = tempSum + abilityThrows[i][j];
-            }
-        abilityValues[i] = tempSum;
-        }
+    public Dwarf(int[] orderedAbilityScores, int classNo){
+        //TODO Implement this Constructor!!!
+    }
+
+    /* TODO do we want Dwarf to be a playable Race? Or just the subraces?
+    * If only subraces should be playable, then make this class abstract and remove this and following Methods.
+    */
+    @Override
+    String getRace() {
+        return "Dwarf";
+    }
+
+    @Override
+    String getKlasse() {
+        return klasse.getName();
     }
 }
