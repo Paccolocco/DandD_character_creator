@@ -16,10 +16,10 @@ public abstract class Character {
 
     //Derived base Stats
     //Only Getters for those
-    private int maxHitPoints = -1;      //Partly implemented
-    private int armorClass = -1;        //Not yet implemented
-    private int speed = -1;             //Not yet implemented
-    private int passivePerception = -1; //Mostly implemented
+    private int maxHitPoints = -1;      //TODO Partly implemented
+    private int armorClass = -1;        //TODO Not yet implemented
+    private int speed = -1;             //TODO Not yet implemented
+    private int passivePerception = -1; //TODO Mostly implemented
 
     //Variable Stats
     private int currentHitPoints = -1;  //Implemented
