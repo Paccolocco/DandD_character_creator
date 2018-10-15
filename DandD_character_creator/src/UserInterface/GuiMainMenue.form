@@ -80,6 +80,7 @@
           </grid>
         </constraints>
         <properties>
+          <font/>
           <text value="Create new character"/>
           <verticalAlignment value="0"/>
         </properties>
