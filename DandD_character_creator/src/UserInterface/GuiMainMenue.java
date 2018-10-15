@@ -1,20 +1,25 @@
-package resources;
+package UserInterface;
+
+import resources.CreateCharacter;
 
 import javax.swing.*;
-
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class GuiMainMenue {
 
     private JPanel MainMenue;
     private JTextArea WelcomeText;
-    private JTextArea DisplayInfoMainMenue;
-    private JButton exitButtonMainMenue;
-    private JButton LoadExistingCharacter;
     private JButton CreateNewCharacter;
-    private JTextArea CreateByText;
+    private JTextField CreatedbyText;
+    private JButton loadExistingCharacterButton;
+    private JButton exitButton;
+
 
     public static void main(String[] args) {
+
         JFrame frame = new JFrame("D&D Character Creator");
         frame.setContentPane(new GuiMainMenue().MainMenue);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -25,5 +30,15 @@ public class GuiMainMenue {
         frame.setResizable(true);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
     }
+    public GuiMainMenue () {
+        CreateNewCharacter.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               RaceSelectionAndInfo.Second();
+            }
+        });
+    }
+
 }

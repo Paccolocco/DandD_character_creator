@@ -14,7 +14,7 @@ public class Create {
      * @param classNo The Number corresponding to the class the new PlayerCharacter should be.
      * @return Returns the new created PlayerCharacter.
      */
-    public static PlayerCharacter Player(int raceNo, int classNo){
+  /**  public static PlayerCharacter Player(int raceNo, int classNo){
         int[] orderedAbilityScores;
         Scanner sc = new Scanner(System.in); //TODO Close Scanner
         System.out.println("Do you want to customize your ability Scores?\n" +
@@ -74,7 +74,7 @@ public class Create {
                 break;
         }
         return createdCharacter;
-    }
+    }*/
 
     /**
      * Rolls 4 dice for each Ability(6 times). Then deletes the smallest value and adds the rest.
