@@ -1,11 +1,11 @@
 package resources;
 
 
-import UserInterface.GuiMainMenue;
+import UserInterface.GUIDandDUserInterface;
 
 public class Controller {
     public static void main(String[] args) {
        // Introduction.Menu();
         //System.out.println("XXX");
-        GuiMainMenue.main(args);    }
+        GUIDandDUserInterface.main(args);    }
 }
