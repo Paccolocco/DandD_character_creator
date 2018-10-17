@@ -2,9 +2,12 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UserInterface.GUIDandDUserInterface">
   <grid id="27dc6" binding="MainMenue" layout-manager="CardLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="500" height="450"/>
     </constraints>
-    <properties/>
+    <properties>
+      <minimumSize width="444" height="450"/>
+      <preferredSize width="444" height="450"/>
+    </properties>
     <border type="none"/>
     <children>
       <grid id="96ecc" binding="MainMenu" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -26,46 +29,40 @@
             </constraints>
             <properties>
               <background color="-855310"/>
+              <editable value="false"/>
               <text value="Welcome to the D&amp;D Character Creator"/>
             </properties>
           </component>
-          <hspacer id="bf556">
-            <constraints>
-              <grid row="0" column="2" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-          </hspacer>
-          <vspacer id="ab935">
-            <constraints>
-              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-            </constraints>
-          </vspacer>
           <component id="36219" class="javax.swing.JButton" binding="ExitButton">
             <constraints>
-              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
-                <preferred-size width="200" height="30"/>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="60"/>
               </grid>
             </constraints>
             <properties>
+              <font size="18"/>
               <text value="Exit"/>
             </properties>
           </component>
           <component id="3eeb8" class="javax.swing.JButton" binding="LoadExistingCharacterButton">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
-                <preferred-size width="200" height="30"/>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="60"/>
               </grid>
             </constraints>
             <properties>
+              <font size="18"/>
               <text value="Load existing character"/>
             </properties>
           </component>
           <component id="7b9fa" class="javax.swing.JButton" binding="CreateNewCharacterButton">
             <constraints>
-              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
-                <preferred-size width="200" height="30"/>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="60"/>
               </grid>
             </constraints>
             <properties>
+              <font size="18"/>
               <text value="Create new character"/>
             </properties>
           </component>
@@ -82,7 +79,7 @@
           </component>
         </children>
       </grid>
-      <grid id="9343c" binding="ChooseRace" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="9343c" binding="ChooseRace" layout-manager="GridLayoutManager" row-count="13" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <card name="Card2"/>
@@ -90,20 +87,219 @@
         <properties/>
         <border type="etched" title="D&amp;D Character Creator"/>
         <children>
+          <component id="1c3f4" class="javax.swing.JTextArea">
+            <constraints>
+              <grid row="11" column="2" row-span="2" col-span="2" vsize-policy="6" hsize-policy="6" anchor="6" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <editable value="false"/>
+              <text value="Created by TJinaPJ and PLoco"/>
+            </properties>
+          </component>
+          <vspacer id="ba2ae">
+            <constraints>
+              <grid row="11" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="a9ccd" class="javax.swing.JButton" binding="ButtonShowRaceInfo_GoBack">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Flubber"/>
+              <foreground color="-16777216"/>
+              <text value="Go Back"/>
+            </properties>
+          </component>
+          <component id="5923e" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Tiefling">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Tiefling"/>
+            </properties>
+          </component>
+          <component id="13645" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Dwarf">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Dwarf"/>
+            </properties>
+          </component>
+          <component id="1ef87" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Elf">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Elf"/>
+            </properties>
+          </component>
+          <component id="4ff53" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Halfling">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Halfling"/>
+            </properties>
+          </component>
+          <component id="889bd" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Half_Orc">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Half-Orc"/>
+            </properties>
+          </component>
+          <component id="74965" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Half_Elf">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Half-Elf"/>
+            </properties>
+          </component>
+          <component id="a74ba" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Gnome">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Gnome"/>
+            </properties>
+          </component>
+          <component id="aaa4b" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Human">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Human"/>
+            </properties>
+          </component>
+          <component id="50d6a" class="javax.swing.JButton" binding="ButtonShowRaceInfo_Dragonborn">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="The Dragonborn"/>
+            </properties>
+          </component>
+          <grid id="778aa" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="3" column="2" row-span="8" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="7c7ec" binding="PanelInfoTextandRaceSelection_Dwarf" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="c9efc" binding="PanelInfoTextandRaceSelection_Elf" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card2"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="327a" binding="PanelInfoTextandRaceSelection_Halfling" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card3"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="aca5c" binding="PanelInfoTextandRaceSelection_Human" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card4"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="8143" binding="PanelInfoTextandRaceSelection_Dragonborne" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card5"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="32868" binding="PanelInfoTextandRaceSelection_Gnome" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card6"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="91d28" binding="PanelInfoTextandRaceSelection_Half_Elf" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card7"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="19627" binding="PanelInfoTextandRaceSelection_Half_Orc" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card8"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="d284b" binding="PanelInfoTextandRaceSelection_Tiefling" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card9"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <hspacer id="79fba">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
           <component id="be7e2" class="javax.swing.JTextField" binding="ChooseYourRaceInfoText">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
             <properties>
               <background color="-855310"/>
+              <editable value="false"/>
               <text value="Choose your race"/>
             </properties>
           </component>
-          <vspacer id="ba2ae">
+          <vspacer id="dec59">
             <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <grid row="1" column="0" row-span="2" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="20"/>
+                <preferred-size width="-1" height="20"/>
+                <maximum-size width="-1" height="20"/>
+              </grid>
             </constraints>
           </vspacer>
         </children>
