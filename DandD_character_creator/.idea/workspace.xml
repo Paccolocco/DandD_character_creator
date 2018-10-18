@@ -2,130 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b21916-3867-4936-a08c-97071f38e660" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/sample/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Paccolocco.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DandD_character_creator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/D&amp;D_character_creator/resources/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/D&amp;D_character_creator/resources/CreateCharacter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/D&amp;D_character_creator/resources/Introduction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/D&amp;D_character_creator/resources/Race_Information.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/Klassen/Barbarian.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/Klassen/Klasse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/UserInterface/GUIDandDUserInterface$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/UserInterface/GUIDandDUserInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/races/Character.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/races/Dwarf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/races/NonPlayerCharacter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/races/PlayerCharacter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/resources/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/resources/Create.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/resources/CreateCharacter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/resources/General_Information.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/resources/Introduction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DandD_character_creator/resources/Race_Information.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/GuiTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/GuiTaschenrechner/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/GuiTaschenrechner/GUIUIUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/GuiTaschenrechner/GuiTaschen$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/GuiTaschenrechner/GuiTaschen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/GuiTaschenrechner/MainMenuPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/GuiTaschenrechner/adfasdf$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/GuiTaschenrechner/adfasdf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/out/production/GuiTest/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/src/GuiTaschenrechner/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/src/GuiTaschenrechner/GUIUIUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/src/GuiTaschenrechner/GuiTaschen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuiTest/src/GuiTaschenrechner/MainMenuPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/JavaFXTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/src/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/src/sample/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/Programiervorkurs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/hs_err_pid16248.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/hs_err_pid3856.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/Battleships/Battleship.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/RandomShitWithTim/Newsing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/RandomShitWithTim/Tannenbaeume.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/SchiffeVersenken/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/SchiffeVersenken/Spielfeldproperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/Wuerfelspielaufgabe/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/Wuerfelspielaufgabe/Spieler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/out/production/Programiervorkurs/Wuerfelspielaufgabe/Wuerfel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/Battleships/Battleship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/RandomShitWithTim/Newsing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/RandomShitWithTim/Tannenbaeume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/SchiffeVersenken/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/SchiffeVersenken/Spielfeldproperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/Wuerfelspielaufgabe/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/Wuerfelspielaufgabe/Spieler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programiervorkurs/src/Wuerfelspielaufgabe/Wuerfel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aufg.4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aufg.4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aufg.4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aufg.4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aufg.4/aufg.4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aufg.4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aufg.4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aufg.4/out/production/aufg.4/sadasd.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,9 +55,9 @@
     <session id="2094368693">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -186,18 +65,18 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="5047" />
+          <entry key="java" value="6004" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5047" />
+          <entry key="JAVA" value="6004" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -209,7 +88,7 @@
           <entry key="class" value="1" />
           <entry key="form" value="15" />
           <entry key="iml" value="4" />
-          <entry key="java" value="40" />
+          <entry key="java" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -217,7 +96,7 @@
           <entry key="CLASS" value="1" />
           <entry key="GUI_DESIGNER_FORM" value="15" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -230,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/Create.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -262,22 +132,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/Race_Information.java">
+        <entry file="file://$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            <state relative-caret-position="612">
+              <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3082#3083#0" expanded="true" />
+                <element signature="e#3143#3144#0" expanded="true" />
+                <element signature="e#3460#3461#0" expanded="true" />
+                <element signature="e#3522#3523#0" expanded="true" />
+                <element signature="e#3720#3721#0" expanded="true" />
+                <element signature="e#3781#3782#0" expanded="true" />
+                <element signature="e#3947#3948#0" expanded="true" />
+                <element signature="e#4008#4009#0" expanded="true" />
+                <element signature="e#4206#4207#0" expanded="true" />
+                <element signature="e#4267#4268#0" expanded="true" />
+                <element signature="e#4465#4466#0" expanded="true" />
+                <element signature="e#4526#4527#0" expanded="true" />
+                <element signature="e#4722#4723#0" expanded="true" />
+                <element signature="e#4783#4784#0" expanded="true" />
+                <element signature="e#4982#4983#0" expanded="true" />
+                <element signature="e#5043#5044#0" expanded="true" />
+                <element signature="e#5242#5243#0" expanded="true" />
+                <element signature="e#5303#5304#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/resources/Race_Information.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="122" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -285,6 +182,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.form">
           <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/General_Information.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/Introduction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/CreateCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-928">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -326,8 +250,8 @@
         <option value="$PROJECT_DIR$/src/UserInterface/RaceSelectionAndInfo.java" />
         <option value="$PROJECT_DIR$/src/UserInterface/GuiMainMenue.java" />
         <option value="$PROJECT_DIR$/src/resources/Controller.java" />
-        <option value="$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.java" />
         <option value="$PROJECT_DIR$/src/resources/Race_Information.java" />
+        <option value="$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.java" />
         <option value="$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.form" />
       </list>
     </option>
@@ -350,8 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -403,13 +325,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539814693616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539868125814" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -545,7 +469,8 @@
       <workItem from="1539706382193" duration="3625000" />
       <workItem from="1539712840803" duration="3469000" />
       <workItem from="1539785796619" duration="1993000" />
-      <workItem from="1539811147896" duration="3542000" />
+      <workItem from="1539811147896" duration="4142000" />
+      <workItem from="1539853777493" duration="12449000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539188637708</created>
@@ -558,7 +483,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88650000" />
+    <option name="totallyTimeSpent" value="101699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -570,7 +495,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2889126" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.29211086" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
@@ -634,6 +559,26 @@
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/resources/Controller.java</url>
+          <line>6</line>
+          <properties class="resources.Controller" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/resources/ChooseRace.java" />
     <entry file="file://$PROJECT_DIR$/src/resources/Test.java" />
@@ -664,27 +609,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/DandD_character_creator/resources/Controller.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/CreateCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/General_Information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/Introduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UserInterface/GUIStartMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/UserInterface/GUIStartMenu.form" />
@@ -718,6 +642,13 @@
     <entry file="file://$PROJECT_DIR$/src/UserInterface/GuiMainMenue.java" />
     <entry file="file://$PROJECT_DIR$/src/UserInterface/RaceSelectionAndInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/UserInterface/RaceSelectionAndInfo.form" />
+    <entry file="file://$PROJECT_DIR$/src/resources/Create.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.desktop/java/awt/Insets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
@@ -732,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/Create.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -746,19 +670,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/Race_Information.java">
+    <entry file="file://$PROJECT_DIR$/src/resources/CreateCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/Introduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/General_Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/Race_Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="122" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UserInterface/GUIDandDUserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="612">
+          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3143#3144#0" expanded="true" />
+            <element signature="e#3460#3461#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#3720#3721#0" expanded="true" />
+            <element signature="e#3781#3782#0" expanded="true" />
+            <element signature="e#3947#3948#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="e#4206#4207#0" expanded="true" />
+            <element signature="e#4267#4268#0" expanded="true" />
+            <element signature="e#4465#4466#0" expanded="true" />
+            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4722#4723#0" expanded="true" />
+            <element signature="e#4783#4784#0" expanded="true" />
+            <element signature="e#4982#4983#0" expanded="true" />
+            <element signature="e#5043#5044#0" expanded="true" />
+            <element signature="e#5242#5243#0" expanded="true" />
+            <element signature="e#5303#5304#0" expanded="true" />
           </folding>
         </state>
       </provider>
