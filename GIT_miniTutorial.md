@@ -50,5 +50,13 @@ ___
 
 Creates a new Branch of the specified Name and sets it as the active Branch.
 ___
+`git stash`
+
+Stashes the current local files. You are able to pull again after this command(if you made local changes).
+___
+`git rm (-r -f) <Name of a File>`
+
+Removes the specified file from the tracked files and from the LOCAL FILES! -r if you want recursive deletion. -f to delete modified files.
+
 
 #### There are way more commands that are usefull, but those are the most basic commands to use git.
