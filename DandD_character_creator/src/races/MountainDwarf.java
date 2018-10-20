@@ -15,9 +15,8 @@ public class MountainDwarf extends Dwarf {
         setCharisma(orderedAbilityScores[5]);
         //TODO Implement the choosing of a name!
         setName("Some generic Name");
-        //TODO Create this constructor!
         setKlasse(emptyClass);
-        setMaxHitPoints(getKlasse().getHitDice() + ((int) Math.floor((double) (getWisdom()-10)/2)));
+        setMaxHitPoints(getKlasse().getHitDice() + ((int) Math.floor((double) (getConstitution()-10)/2)));
     }
 
     @Override

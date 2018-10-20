@@ -12,6 +12,5 @@ public class Controller {
         //System.out.println("XXX");
         int[] array = {1,2,3,4,5,6};
         PlayerCharacter player = Dwarf.Generate(array, new Barbarian());
-        System.out.println("XxX");
         GUIDandDUserInterface.main(args);    }
 }

@@ -2,22 +2,15 @@ package Klassen;
 
 public class Barbarian extends Klasse {
 
-    //Final Variables of a Barbarian
-    private final String name = "Barbarian";
-    private final int hitDice = 12;
+    //Getters and Setters
 
-
-
-
+    @Override
+    public int getHitDice() {
+        return 12;
+    }
 
     @Override
     public String getName() {
-        return name;
-    }
-
-    //Getters and Setters
-
-    public int getHitDice() {
-        return hitDice;
+        return "Barbarian";
     }
 }
