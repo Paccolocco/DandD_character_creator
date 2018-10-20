@@ -12,7 +12,7 @@ public abstract class PlayerCharacter extends Character {
     public abstract String getRace();
 
     //Getters and Setters
-    public void setKlasse(Klasse klasse) {
+    void setKlasse(Klasse klasse) {
         this.klasse = klasse;
     }
 
