@@ -17,7 +17,7 @@ public abstract class Halfling extends PlayerCharacter {
     }
 
     @Override
-    int getSpeed() {
+    public int getSpeed() {
         return 25; //TODO Speed in feet? :/
     }
 }

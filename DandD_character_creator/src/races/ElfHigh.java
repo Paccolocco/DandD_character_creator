@@ -2,16 +2,16 @@ package races;
 
 import Klassen.Klasse;
 
-public class DarkElf extends Elf {
+public class ElfHigh extends Elf {
 
 
-    public DarkElf(int[] orderedAbilityScores, Klasse emptyClass) {
+    public ElfHigh(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);
-        setIntelligence(orderedAbilityScores[3]);
+        setIntelligence(orderedAbilityScores[3] + 1);
         setWisdom(orderedAbilityScores[4]);
-        setCharisma(orderedAbilityScores[5] + 1);
+        setCharisma(orderedAbilityScores[5]);
         //TODO Implement the choosing of a name!
         setName("Some generic Name");
         setKlasse(emptyClass);
@@ -19,7 +19,7 @@ public class DarkElf extends Elf {
     }
 
     @Override
-    String getRace() {
-        return "Dark Elf (Drow)";
+    public String getRace() {
+        return "High Elf";
     }
 }

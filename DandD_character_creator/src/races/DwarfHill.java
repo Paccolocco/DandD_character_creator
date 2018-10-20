@@ -2,11 +2,11 @@ package races;
 
 import Klassen.Klasse;
 
-public class HillDwarf extends Dwarf {
+public class DwarfHill extends Dwarf {
 
     //TODO Additional info?
 
-    public HillDwarf(int[] orderedAbilityScores, Klasse emptyClass) {
+    public DwarfHill(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);
@@ -21,7 +21,7 @@ public class HillDwarf extends Dwarf {
     }
 
     @Override
-    String getRace() {
+    public String getRace() {
         return "Hill Dwarf";
     }
 }

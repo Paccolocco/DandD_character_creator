@@ -10,16 +10,16 @@ public abstract class Elf extends PlayerCharacter {
         int subRaceChoice = -1;
         //TODO Implement a way to choose subRaceChoice
         if (subRaceChoice == 0){
-            return new HighElf(orderedAbilityScores, emptyClass);
+            return new ElfHigh(orderedAbilityScores, emptyClass);
         }else if (subRaceChoice == 1){
-            return new WoodElf(orderedAbilityScores, emptyClass);
+            return new ElfWood(orderedAbilityScores, emptyClass);
         }else{
-            return new DarkElf(orderedAbilityScores, emptyClass);
+            return new ElfDark(orderedAbilityScores, emptyClass);
         }
     }
 
     @Override
-    int getSpeed() {
+    public int getSpeed() {
         return 30; //TODO Speed in feet? :/
     }
 

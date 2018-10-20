@@ -12,5 +12,7 @@ public class Controller {
         //System.out.println("XXX");
         int[] array = {1,2,3,4,5,6};
         PlayerCharacter player = Dwarf.Generate(array, new Barbarian());
-        GUIDandDUserInterface.main(args);    }
+        GUIDandDUserInterface.main(args);
+        player.getSpeed();
+    }
 }

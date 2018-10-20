@@ -9,7 +9,7 @@ public abstract class PlayerCharacter extends Character {
     //protected abstract void generateMaxHitPoints();
     //protected abstract void updateMaxHitPoints();
     //Still in Development!
-    abstract String getRace();
+    public abstract String getRace();
 
     //Getters and Setters
     public void setKlasse(Klasse klasse) {

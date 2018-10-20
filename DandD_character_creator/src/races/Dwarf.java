@@ -14,14 +14,14 @@ public abstract class Dwarf extends PlayerCharacter {
         int subRaceChoice = -1;
         //TODO Implement a way to choose subRaceChoice
         if (subRaceChoice == 0){
-            return new HillDwarf(orderedAbilityScores, emptyClass);
+            return new DwarfHill(orderedAbilityScores, emptyClass);
         }else{
-            return new MountainDwarf(orderedAbilityScores, emptyClass);
+            return new DwarfMountain(orderedAbilityScores, emptyClass);
         }
     }
 
     @Override
-    int getSpeed() {
+    public int getSpeed() {
         return 25; //TODO Speed in feet? :/
     }
 

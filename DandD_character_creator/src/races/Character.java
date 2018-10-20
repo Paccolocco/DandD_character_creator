@@ -25,7 +25,7 @@ public abstract class Character {
     private int currentHitPoints = -1;  //Implemented
 
     //Further Variables, that need to be implemented by child-classes.
-    abstract int getSpeed();
+    public abstract int getSpeed();
 
 
     /**

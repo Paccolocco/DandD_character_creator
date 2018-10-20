@@ -19,7 +19,7 @@ public class HalflingStout extends Halfling {
     }
 
     @Override
-    String getRace() {
+    public String getRace() {
         return "Halfling/Stout";
     }
 }

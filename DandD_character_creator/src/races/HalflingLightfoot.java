@@ -19,7 +19,7 @@ public class HalflingLightfoot extends Halfling {
     }
 
     @Override
-    String getRace() {
+    public String getRace() {
         return "Halfling/Lightfoot";
     }
 }

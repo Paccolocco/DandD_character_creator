@@ -2,15 +2,15 @@ package races;
 
 import Klassen.Klasse;
 
-public class HighElf extends Elf {
+public class ElfWood extends Elf {
 
 
-    public HighElf(int[] orderedAbilityScores, Klasse emptyClass) {
+    public ElfWood(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);
-        setIntelligence(orderedAbilityScores[3] + 1);
-        setWisdom(orderedAbilityScores[4]);
+        setIntelligence(orderedAbilityScores[3]);
+        setWisdom(orderedAbilityScores[4] + 1);
         setCharisma(orderedAbilityScores[5]);
         //TODO Implement the choosing of a name!
         setName("Some generic Name");
@@ -19,7 +19,12 @@ public class HighElf extends Elf {
     }
 
     @Override
-    String getRace() {
-        return "High Elf";
+    public String getRace() {
+        return "Wood Elf";
+    }
+
+    @Override
+    public int getSpeed() {
+        return 35; //TODO Speed in feet? :/
     }
 }
