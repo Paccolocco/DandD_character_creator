@@ -1,5 +1,6 @@
 package resources;
 
+import Klassen.Klasse;
 import races.Dwarf;
 import races.PlayerCharacter;
 
@@ -11,70 +12,70 @@ public class Create {
     /**
      * Creates a new PlayerCharacter.
      * @param raceNo The Number corresponding to the race the new PlayerCharacter should be.
-     * @param classNo The Number corresponding to the class the new PlayerCharacter should be.
+     * @param emptyClass An empty instance of the wanted class.
      * @return Returns the new created PlayerCharacter.
      */
-  /**  public static PlayerCharacter Player(int raceNo, int classNo){
-        int[] orderedAbilityScores;
+    public static PlayerCharacter Player(int raceNo, Klasse emptyClass){
+        int[] orderedAbilityScores = {13,13,13,12,12,12};
         Scanner sc = new Scanner(System.in); //TODO Close Scanner
         System.out.println("Do you want to customize your ability Scores?\n" +
                 "Enter 1 for yes:"); //TODO wording...
         if (sc.nextInt() == 1){ //TODO Catch exception
-            //TODO Implement customizable ability scores.
+            //TODO Implement point buy. Useless, because it would be redone with a GUI. Therefore --> orderedAbilityScores is initialized and declared. Remove that if you implement this.
         }else{
-            int[] abilityvalues = RollAbilityScores();
+            int[] abilityValues = RollAbilityScores();
             System.out.println("You have rolled the Scores: ");
-            for (int i = 0; i<abilityvalues.length; i++){
-                System.out.print("#" + (i+1) + ": " + abilityvalues[i] + " |");
+            for (int i = 0; i<abilityValues.length; i++){
+                System.out.print("#" + (i+1) + ": " + abilityValues[i] + " |");
             }
-            orderedAbilityScores = AssignAbilityScores(abilityvalues);
+            orderedAbilityScores = AssignAbilityScores(abilityValues);
         }
-        PlayerCharacter createdCharacter = CreateRace(orderedAbilityScores, raceNo, classNo);
 
-        return createdCharacter;
+        return CreateRace(orderedAbilityScores, raceNo, emptyClass);
     }
 
-    private static PlayerCharacter CreateRace(int[] orderedAbilityScores, int raceNo, int classNo) {
-        PlayerCharacter createdCharacter;
+    private static PlayerCharacter CreateRace(int[] orderedAbilityScores, int raceNo, Klasse emptyClass) {
+        PlayerCharacter createdCharacter = Dwarf.Generate(orderedAbilityScores, emptyClass);
+        //TODO Remove the assignment here. It is just here to remove the Error of the return.
         switch (raceNo){
             case 1:
-                createdCharacter = new Dwarf(orderedAbilityScores, classNo);
+                createdCharacter = Dwarf.Generate(orderedAbilityScores, emptyClass);
                 break;
             case 2:
-                createdCharacter = new Elf(orderedAbilityScores, classNo);
+                // TODO createdCharacter = new Elf(orderedAbilityScores, emptyClass);
                 //TODO Elf
                 break;
             case 3:
-                createdCharacter = new Halfling(orderedAbilityScores, classNo);
+                //TODO createdCharacter = new Halfling(orderedAbilityScores, emptyClass);
                 //TODO Halfling
                 break;
             case 4:
-                createdCharacter = new Human(orderedAbilityScores, classNo);
+                //TODO createdCharacter = new Human(orderedAbilityScores, emptyClass);
                 //TODO Human
                 break;
             case 5:
-                createdCharacter = new Dragonborne(orderedAbilityScores, classNo);
+                //TODO createdCharacter = new Dragonborne(orderedAbilityScores, emptyClass);
                 //TODO Drangonborne
                 break;
             case 6:
-                createdCharacter = new Gnome(orderedAbilityScores, classNo);
+                //TODO createdCharacter = new Gnome(orderedAbilityScores, emptyClass);
                 //TODO Gnome
                 break;
             case 7:
-                createdCharacter = new HalfElf(orderedAbilityScores, classNo);
+                //TODO createdCharacter = new HalfElf(orderedAbilityScores, emptyClass);
                 //TODO Half-Elf
                 break;
             case 8:
-                createdCharacter = new HalfOrc(orderedAbilityScores, classNo);
+                //TODO createdCharacter = new HalfOrc(orderedAbilityScores, emptyClass);
                 //TODO Half-Orc
                 break;
             case 9:
-                createdCharacter = new Tiefling(orderedAbilityScores, classNo);
+                //TODO createdCharacter = new Tiefling(orderedAbilityScores, emptyClass);
                 //TODO Tiefling
                 break;
         }
         return createdCharacter;
-    }*/
+    }
 
     /**
      * Rolls 4 dice for each Ability(6 times). Then deletes the smallest value and adds the rest.

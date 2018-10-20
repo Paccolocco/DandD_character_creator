@@ -3,6 +3,7 @@ package races;
 public abstract class Character {
     //Still in Development!
 
+
     //Base Stats for a character
     //Getter and Setter for all of those
     //Might implement stat changing in this package, so the setters can be deleted.
@@ -17,12 +18,15 @@ public abstract class Character {
     //Derived base Stats
     //Only Getters for those
     private int maxHitPoints = -1;      //TODO Partly implemented
-    private int armorClass = -1;        //TODO Not yet implemented
-    private int speed = -1;             //TODO Not yet implemented
-    private int passivePerception = -1; //TODO Mostly implemented
+    //TODO Do we want this? private int armorClass = -1;        //TODO Not yet implemented
+    private int passivePerception = -1; //TODO Mostly implemented (see updatePassivePerception)
 
     //Variable Stats
     private int currentHitPoints = -1;  //Implemented
+
+    //Further Variables, that need to be implemented by child-classes.
+    abstract int getSpeed();
+
 
     /**
      * Subtracts the given amount from the current HP. Can be used as a heal as well.
@@ -34,8 +38,8 @@ public abstract class Character {
         }else{
             currentHitPoints = currentHitPoints - amount;
             if (currentHitPoints <= 0){
-                //Implement proper Death Function.
-                System.out.println("Hitpoints of " + name + " have been reduced to: " + currentHitPoints);
+                //TODO Implement proper Death Function.
+                System.out.println("Hitpoints of " + getName() + " have been reduced to: " + currentHitPoints);
             }
         }
     }
@@ -45,9 +49,19 @@ public abstract class Character {
      */
     private void updatePassivePerception(){
         //TODO Proficiency is not being calculated right now.
+        //Base 10 plus ability modifier equals passive perception.
         this.passivePerception = 10 + (int) Math.floor((double) (this.wisdom-10)/2);
     }
+
     //Getter and Setter
+    public String getName() {
+        return name;
+    }
+
+    void setName(String name) {
+        this.name = name;
+    }
+
     public int getStrength() {
         return strength;
     }
@@ -101,12 +115,9 @@ public abstract class Character {
         return maxHitPoints;
     }
 
-    public int getArmorClass() {
-        return armorClass;
-    }
-
-    public int getSpeed() {
-        return speed;
+    void setMaxHitPoints(int maxHitPoints){
+        this.maxHitPoints = maxHitPoints;
+        this.currentHitPoints = maxHitPoints;
     }
 
     public int getPassivePerception() {

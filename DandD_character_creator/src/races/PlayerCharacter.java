@@ -1,10 +1,22 @@
 package races;
 
+import Klassen.Klasse;
+
 public abstract class PlayerCharacter extends Character {
+
+    private Klasse klasse;
 
     //protected abstract void generateMaxHitPoints();
     //protected abstract void updateMaxHitPoints();
     //Still in Development!
     abstract String getRace();
-    abstract String getKlasse();
+
+    //Getters and Setters
+    public void setKlasse(Klasse klasse) {
+        this.klasse = klasse;
+    }
+
+    public Klasse getKlasse() {
+        return klasse;
+    }
 }
