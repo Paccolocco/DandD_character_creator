@@ -5,7 +5,7 @@ import Klassen.Klasse;
 public class ElfHigh extends Elf {
 
 
-    public ElfHigh(int[] orderedAbilityScores, Klasse emptyClass) {
+    ElfHigh(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);

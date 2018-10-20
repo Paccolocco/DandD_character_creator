@@ -6,7 +6,7 @@ public class DwarfMountain extends Dwarf {
 
     //TODO Might add info about: Proficiency with light and medium armor
 
-    public DwarfMountain(int[] orderedAbilityScores, Klasse emptyClass) {
+    DwarfMountain(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0] + 2);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);

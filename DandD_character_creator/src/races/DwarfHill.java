@@ -6,7 +6,7 @@ public class DwarfHill extends Dwarf {
 
     //TODO Additional info?
 
-    public DwarfHill(int[] orderedAbilityScores, Klasse emptyClass) {
+    DwarfHill(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);

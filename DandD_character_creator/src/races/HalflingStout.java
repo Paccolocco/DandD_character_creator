@@ -5,7 +5,7 @@ import Klassen.Klasse;
 public class HalflingStout extends Halfling {
 
 
-    public HalflingStout(int[] orderedAbilityScores, Klasse emptyClass) {
+    HalflingStout(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2] + 1);

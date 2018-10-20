@@ -5,7 +5,7 @@ import Klassen.Klasse;
 public class HalflingLightfoot extends Halfling {
 
 
-    public HalflingLightfoot(int[] orderedAbilityScores, Klasse emptyClass) {
+    HalflingLightfoot(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);

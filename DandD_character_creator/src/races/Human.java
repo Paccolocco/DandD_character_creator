@@ -4,7 +4,7 @@ import Klassen.Klasse;
 
 public class Human extends PlayerCharacter {
 
-    public Human(int[] orderedAbilityScores, Klasse emptyClass) {
+    private Human(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);

@@ -5,7 +5,7 @@ import Klassen.Klasse;
 public class ElfDark extends Elf {
 
 
-    public ElfDark(int[] orderedAbilityScores, Klasse emptyClass) {
+    ElfDark(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);

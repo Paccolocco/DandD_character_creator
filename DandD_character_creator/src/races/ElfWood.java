@@ -5,7 +5,7 @@ import Klassen.Klasse;
 public class ElfWood extends Elf {
 
 
-    public ElfWood(int[] orderedAbilityScores, Klasse emptyClass) {
+    ElfWood(int[] orderedAbilityScores, Klasse emptyClass) {
         setStrength(orderedAbilityScores[0]);
         setDexterity(orderedAbilityScores[1]);
         setConstitution(orderedAbilityScores[2]);
